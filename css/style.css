@@ -1,0 +1,111 @@
+/* Mapa */
+
+#area {
+  outline: none;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+/* Logo */
+
+#google-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Busca */
+
+#caixa-busca {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  left: 28%;
+}
+
+.busca-i {
+  left: 29.9%;
+  height: 42.9px;
+  width: 490px;
+  margin-top: 13.9px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Botões*/
+
+#pesquisa {
+  margin-top: 90px;
+  margin-left: 39%;
+  height: 30px;
+  width: 140px;
+  border: none;
+  font-weight: bold;
+  color: rgb(111, 121, 117);
+  background-color: rgba(212, 212, 212, 0.55);
+}
+
+#sorte {
+  margin-top: 90px;
+  margin-left: 5px;
+  height: 30px;
+  width: 140px;
+  border: none;
+  font-weight: bold;
+  color: rgb(111, 121, 117);
+  background-color: rgba(212, 212, 212, 0.55);
+}
+
+#pesquisa:hover, #sorte:hover {
+  color: rgb(15, 15, 15);
+}
+
+/*  Rodapé */
+
+#bottom-e {
+  float: left;
+  margin-left: 1%;
+  position: absolute;
+  bottom: 2.5%;
+}
+
+#bottom-d {
+  float: right;
+  margin-left: 79%;
+  position: absolute;
+  bottom: 2.5%;
+}
+
+#publicidade, #negocios, #sobre {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+}
+
+#privacidade, #termos, #config {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#a-bottom:link {
+  text-decoration: none;
+  color: rgb(111, 121, 117);
+}
+
+#a-bottom:hover {
+  text-decoration: underline;
+}
+
+#a-bottom:visited {
+  text-decoration: none;
+  color: rgb(111, 121, 117);
+  outline: none;
+}
